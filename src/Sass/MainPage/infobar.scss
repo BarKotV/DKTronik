@@ -1,0 +1,20 @@
+.alarm--system {
+  height: 20rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+  &--img {
+    background-image: url("./../../img/6644.jpg");
+    width: 100rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+  }
+}
+
+.flex {
+  padding-left: 2rem;
+}

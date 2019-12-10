@@ -1,0 +1,28 @@
+@mixin fastImg {
+  width: 68.75rem;
+  height: 35rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.boxcarousel {
+  margin: 0 auto;
+  width: 68.75rem;
+  height: 35rem;
+}
+
+.image3 {
+  background-image: url("./../../img/4747.jpg");
+  @include fastImg;
+}
+
+.image2 {
+  background-image: url("./../../img/1624.jpg");
+  @include fastImg;
+}
+
+.image1 {
+  background-image: url("./../../img/2040.jpg");
+  @include fastImg;
+}

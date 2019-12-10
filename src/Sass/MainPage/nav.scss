@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  font-size: 16px;
+}
+
+.header {
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &--top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__contact {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 70%;
+      padding: 2rem 0 0 0;
+    }
+  }
+}
+
+.fontawsome--text {
+  padding-left: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.fas {
+  padding-right: 2rem;
+}
+
+header {
+  margin: 3rem 0 2rem 0;
+  height: 5rem;
+  background-color: black;
+
+}
+
+.company--name {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 1.4rem;
+}
